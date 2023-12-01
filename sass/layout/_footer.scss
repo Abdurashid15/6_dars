@@ -1,0 +1,22 @@
+.footer {
+    background-color: #2C343E;
+    padding: 47px 85px;
+    margin-top: 168px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__list {
+    display: flex;
+    gap: 33px;
+    cursor: pointer;
+    color: #83888F;
+    font-family: 'Barlow';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+}

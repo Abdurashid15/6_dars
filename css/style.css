@@ -1,0 +1,420 @@
+/* fraunces-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fraunces-v31-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/fraunces-v31-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/fraunces-v31-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/fraunces-v31-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/fraunces-v31-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/fraunces-v31-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/barlow-v12-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/barlow-v12-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/barlow-v12-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/barlow-v12-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/barlow-v12-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/barlow-v12-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav__list {
+  display: flex;
+  gap: 33px;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 auto;
+  padding: 43px 0px;
+}
+
+.nav__item {
+  color: #83888F;
+  font-family: "Barlow";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+
+.Title {
+  color: #FEFCF7;
+  font-family: Fraunces 9pt;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+}
+
+.header__title {
+  background-image: url(/static/images/png/header-bg-img.png);
+  height: 450px;
+  background-repeat: no-repeat;
+}
+
+.header__title p {
+  margin-top: 32px;
+  color: #FEFCF7;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.creatplan {
+  padding: 85px 130px;
+}
+
+.footer {
+  background-color: #2C343E;
+  padding: 47px 85px;
+  margin-top: 168px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__list {
+  display: flex;
+  gap: 33px;
+  cursor: pointer;
+  color: #83888F;
+  font-family: "Barlow";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+
+.plan {
+  margin-top: 150px;
+  padding: 100px 85px;
+  background-color: #2C343E;
+  border-radius: 3px;
+}
+
+.plan__data {
+  margin-top: 67px;
+  display: flex;
+  gap: 95px;
+}
+
+.plan__item-one {
+  color: #FDD6BA;
+  font-family: "Fraunces 9pt";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+}
+
+.plan__item-two {
+  margin-top: 38px;
+  color: #FEFCF7;
+  font-family: "Fraunces 9pt";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+}
+
+.plan__item-three {
+  margin-top: 42px;
+  color: #FEFCF7;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.questions__item {
+  color: #333D4B;
+  font-family: "Fraunces 9pt";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  opacity: 0.5;
+  gap: 25px;
+}
+
+.questions__item:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.questions {
+  margin-top: 159px;
+  gap: 125px;
+  display: flex;
+}
+
+.questions__list {
+  width: 255px;
+}
+
+.top {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+.top h2 {
+  color: #83888F;
+  font-family: "Fraunces 9pt";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+}
+
+.a {
+  padding: 32px 28px 84px;
+  border-radius: 8px;
+  background: #F4F1EB;
+}
+
+.a p {
+  color: #333D4B;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.a h4 {
+  color: #333D4B;
+  font-family: Fraunces 9pt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+}
+
+.b {
+  padding: 32px 28px 80px;
+  border-radius: 8px;
+  background: #0E8784;
+}
+
+.b p {
+  color: #FEFCF7;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.b h4 {
+  color: #FFF;
+  font-family: Fraunces 9pt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+}
+
+.cards {
+  margin-top: 56px;
+  display: flex;
+  gap: 23px;
+}
+
+.cards p {
+  margin-top: 24px;
+}
+
+.order {
+  margin: auto;
+  margin-top: 85px;
+  padding: 30px 64px;
+  background-color: #2C343E;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+.order span {
+  color: #0E8784;
+  font-family: Fraunces 9pt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+.order h5 {
+  color: #FFF;
+  font-family: Fraunces 9pt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+.main__btn {
+  padding: 15px 35px;
+  border-radius: 6px;
+  background: #0E8784;
+  margin-right: auto;
+  color: #FEFCF7;
+  text-align: center;
+  font-family: Fraunces 9pt;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  margin-right: auto;
+}
+
+.container {
+  margin: 0px auto;
+  max-width: 1280px;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
